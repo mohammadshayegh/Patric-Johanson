@@ -1,0 +1,45 @@
+.blogContainer{
+    display: grid;
+    grid-template-columns: 45px 4fr 1fr;
+    height: 100%;
+}
+
+.gallery{
+    display: inline-block;
+    width: 46%;
+    padding: 0;
+    
+}
+#contentContainer{
+    overflow: scroll;
+    background: linear-gradient(to right, #1E1F22,#242529,#2A2C30);
+    padding-top: 70px;
+}
+
+.galleryCap p:first-child{
+    color: white;
+}
+.contentHeader{
+    margin-bottom: 20px;
+}
+.contentHeader , .gallery{
+    margin-top: 5px;
+    margin-left: 2.5%;
+}
+.widget{
+    background: #1F2023;
+
+}
+.widget ul {
+    padding: 15px;
+}
+.widget ul > li {
+    font-size: 16px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    list-style: none;
+}
+
+a:active,a:visited,a:hover,a:link{
+    color: #ddd;
+}
